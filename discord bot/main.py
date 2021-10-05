@@ -33,9 +33,6 @@ def main():
         if '.py' in filename:
             filename = filename.replace('.py','')
             client.load_extension(f"cogs.{filename}")
-
-    with open('token.txt', 'r') as f:
-        token = f.read()
         
     client.run(os.environ['token'])
 
