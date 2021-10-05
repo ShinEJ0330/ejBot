@@ -25,12 +25,6 @@ class EJBot(commands.Cog):
         embed.add_field(name="취직", value="원하는 직무를 입력하세요.", inline=False)
 
         await ctx.send(embed = embed)
-        
-    @commands.command(name = "새로고침")
-    async def _reload(ctx, extension):
-        client.unload_extension(f"cogs.{extension}")
-        client.load_extension(f'cogs.{extension}')
-        await ctx.send(f"{extension}이 새로고침 되었어요!")
 
 def setup(client):
     client.add_cog(EJBot(client))
