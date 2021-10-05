@@ -1,11 +1,1 @@
 worker: python main.py
-worker: python corona.py
-worker: python ejBot.py
-worker: python example.py
-worker: python job.py
-worker: python lunch.py
-worker: python music.py
-worker: python quiz.py
-worker: python rank.py
-worker: python restaurant.py
-worker: python word.py
