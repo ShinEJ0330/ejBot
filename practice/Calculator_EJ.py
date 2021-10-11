@@ -1,7 +1,7 @@
 import tkinter as tk
  
 root = tk.Tk()
-root.title("신은지 계산기")
+root.title("EJ 계산기")
 root.geometry("300x450")
  
 upper_frame = tk.Frame(root, width=400, height=100)
